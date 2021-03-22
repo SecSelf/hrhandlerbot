@@ -4,7 +4,7 @@ from db_f import add_message
 from db_f import get_random_message
 from db_f import get_user_message
 
-bot = telebot.TeleBot("1781135362:AAGS0Wtl-Wk8jmph20M8Mw16OC8CnlARAt8", parse_mode=None) #API Token
+bot = telebot.TeleBot("token", parse_mode=None) #API Token
 
 
 @bot.message_handler(commands=['start', 'help']) #Introduction and first message handler
